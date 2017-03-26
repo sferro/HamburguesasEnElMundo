@@ -12,6 +12,7 @@
 		9E0422921E86B047005DBA4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0422901E86B047005DBA4E /* Main.storyboard */; };
 		9E0422941E86B047005DBA4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0422931E86B047005DBA4E /* Assets.xcassets */; };
 		9E0422971E86B047005DBA4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0422951E86B047005DBA4E /* LaunchScreen.storyboard */; };
+		9E0422A11E86B6E4005DBA4E /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0422A01E86B6E4005DBA4E /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		9E0422931E86B047005DBA4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E0422961E86B047005DBA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E0422981E86B047005DBA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E04229E1E86B53D005DBA4E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		9E0422A01E86B6E4005DBA4E /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,18 @@
 				9E0422931E86B047005DBA4E /* Assets.xcassets */,
 				9E0422951E86B047005DBA4E /* LaunchScreen.storyboard */,
 				9E0422981E86B047005DBA4E /* Info.plist */,
+				9E04229F1E86B546005DBA4E /* playgrounds */,
+				9E0422A01E86B6E4005DBA4E /* Datos.swift */,
 			);
 			path = hamburguesasEnElMundo;
+			sourceTree = "<group>";
+		};
+		9E04229F1E86B546005DBA4E /* playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				9E04229E1E86B53D005DBA4E /* MyPlayground.playground */,
+			);
+			name = playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +152,7 @@
 			files = (
 				9E04228F1E86B047005DBA4E /* ViewController.swift in Sources */,
 				9E04228D1E86B047005DBA4E /* AppDelegate.swift in Sources */,
+				9E0422A11E86B6E4005DBA4E /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
